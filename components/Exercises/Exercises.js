@@ -138,7 +138,8 @@ const Exercises = ({
           <Box
             sx={{
               paddingLeft: 10,
-              width: '100%',
+              width:
+               '100%',
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'center',

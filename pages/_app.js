@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import { SessionProvider } from 'next-auth/react'
 import { MantineProvider, ColorSchemeProvider } from '@mantine/core'
 import { useLocalStorage } from '../utils/useAccount'
@@ -72,22 +73,24 @@ export default function App(props) {
         <link rel='manifest' href='/manifest.json' />
         <link rel='mask-icon' href='/icons/logo.png' color='#efd36c' />
         <link rel='shortcut icon' href='/favicon.ico' />
-
-        <script
-          async
-          src='https://www.googletagmanager.com/gtag/js?id=G-1D4ECEBPES'
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-1D4ECEBPES');
-            `,
-          }}
-        />
       </Head>
+
+      <Script
+        strategy='afterInteractive'
+        src='https://www.googletagmanager.com/gtag/js?id=G-1D4ECEBPES'
+      />
+      <Script
+        id='google-analytics'
+        strategy='afterInteractive'
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-1D4ECEBPES');
+          `,
+        }}
+      />
 
       <SessionProvider session={session}>
         <ColorSchemeProvider
