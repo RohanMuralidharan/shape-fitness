@@ -44,8 +44,8 @@ const ReleaseNotes = () => {
           working on replacing them.Videos will take a few weeks.
         </Text>
         {/* <Text mb="sm">
-        Is there anything you would like to see on workout.lol that would improve your experience?
-        Let me know via <a href="mailto:info@ShapeFitness">Email</a>, <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a> or <a href="https://github.com/Vincenius/workout-lol/issues" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        Is there anything you would like to see on ShapeFitness that would improve your experience?
+        Let me know via <a href="mailto:info@ShapeFitness">Email</a>, <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a> or <a href="https://github.com/Vincenius/shapefitness/issues" target="_blank" rel="noopener noreferrer">GitHub</a>.
       </Text> */}
         <Text mb='sm'>Thank you for your patience. Enjoy your workout 💪!</Text>
         <Text>Cheers,</Text>

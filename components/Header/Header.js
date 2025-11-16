@@ -49,7 +49,7 @@ const Header = () => {
               weight={500}
               className={!dark ? styles.title : styles.titleDark}
             >
-              Workout.lol
+              ShapeFitness
             </Text>
           </Group>
         </Link>

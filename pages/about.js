@@ -20,7 +20,7 @@ export default function Home() {
           or have specific requests.
         </p>
         <p>
-          If you enjoy using Workout.lol and would like to contribute to its
+          If you enjoy using ShapeFitness and would like to contribute to its
           development and maintenance, you can support us by making a{' '}
           <a href='https://ko-fi.com'>donation</a> to help cover the
           running costs.

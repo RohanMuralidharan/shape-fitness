@@ -41,7 +41,7 @@ export default function App(props) {
         <meta name='twitter:image' content={imageLink} />
         <meta property='og:title' content={title} />
         <meta property='og:image' content={imageLink} />
-        <meta property='og:site_name' content='workout.lol' />
+        <meta property='og:site_name' content='ShapeFitness' />
         <meta property='og:description' content={description} />
         <meta property='og:url' content={link} />
 

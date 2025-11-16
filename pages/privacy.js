@@ -202,7 +202,7 @@ export default function Home() {
           me:
         </p>
         <ul>
-          <li>By email: info@workout.lol</li>
+          <li>By email: info@shapefitness.com</li>
         </ul>
       </Text>
     </Layout>

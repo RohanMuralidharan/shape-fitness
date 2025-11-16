@@ -220,7 +220,7 @@ const Workout = ({ workout, updateProgress, user }) => {
   return (
     <div>
       <InfoCard>
-        Keep Workout.lol free. Support us by making a{' '}
+        Keep ShapeFitness free. Support us by making a{' '}
         <a
           href='https://ko-fi.com'
           target='_blank'
